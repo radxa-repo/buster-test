@@ -1,0 +1,9 @@
+Archive: buster-test
+Component: main
+Origin: Radxa
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: all
+Date: Tue, 27 Feb 2024 10:51:57 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC

@@ -1,0 +1,269 @@
+Package: glmark2-data
+Source: glmark2
+Version: 2021.02+ds-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9311
+Recommends: glmark2-drm (>= 2021.02+ds-1) | glmark2-wayland (>= 2021.02+ds-1) | glmark2-x11 (>= 2021.02+ds-1) | glmark2-es2-wayland (>= 2021.02+ds-1) | glmark2-es2-drm (>= 2021.02+ds-1) | glmark2-es2-x11 (>= 2021.02+ds-1)
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+Filename: pool/rockchip-buster-test/main/g/glmark2/glmark2-data_2021.02+ds-1_all.deb
+MD5sum: 607cb6140842ca053082f44bdf47443f
+SHA1: decb0d2e370b041fb8951156cf594cd2de2a69b8
+SHA256: 534aa105f06f41f20155c7b7fef4942e03e103ba9f17acb3004ebcd9830ab979
+SHA512: 9aecbd6cd93ea9823baf738aed8ab2de93ae1a644b30c5b0e0000e30af82c8a930e3321738e5592cceba2fd4cde3bb7665285c16bbe32393170807d58eeb8ca5
+Size: 6589888
+
+Package: gstreamer1.0-doc
+Source: gstreamer1.0
+Version: 1.14.4-1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 10573
+Depends: libglib2.0-doc
+Recommends: libgstreamer1.0-dev (= 1.14.4-1)
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core documentation and manuals
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for core libraries and elements as
+ well as:
+  * the GStreamer Manual
+  * the GStreamer Plugin Writers Guide
+  * Various API docs
+Filename: pool/rockchip-buster-test/main/g/gstreamer1.0/gstreamer1.0-doc_1.14.4-1_all.deb
+MD5sum: 548f5738e7a334f0305c7d33a5adc904
+SHA1: 4c50d3b97845498df47170cfe4584aba5072c601
+SHA256: 281d8bce83b961c48f9c8eb997a6e663fefd1a0bff28d6c448a750c031575709
+SHA512: a1e1eb836595011e87600f34a096f47511e24324e0dfab52a8c4021f27e6c3d033dfe0921ddb21062a5d796e77cd779b7b84c8743473155a03622ff1501a1bbd
+Size: 1635068
+
+Package: gstreamer1.0-plugins-bad-doc
+Source: gst-plugins-bad1.0
+Version: 1.14.4-1+deb10u2
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 7496
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: extra
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains the documentation for plugins from the "bad" set.
+Filename: pool/rockchip-buster-test/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad-doc_1.14.4-1+deb10u2_all.deb
+MD5sum: da083d2113b4294d9988257a5667a707
+SHA1: c16c4cd75c313a018d078e4bf03aba51c640a11e
+SHA256: 0003958508474c6b75c575884ec70543bc532637acf7982f23ce86145cf6a981
+SHA512: a19a638bddc507e961f07ed2c6282110349429d330f4d027f9c4c9f7981a8e62a64ad82fd35cd6c68e444a6ecd7afdd01dd1c595bf14298d07c0fa9ece81d9f6
+Size: 1962628
+
+Package: gstreamer1.0-plugins-base-doc
+Source: gst-plugins-base1.0
+Version: 1.14.4-2+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 9823
+Depends: libglib2.0-doc, gstreamer1.0-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "base" set,
+ an essential exemplary set of elements.
+Filename: pool/rockchip-buster-test/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-doc_1.14.4-2+deb10u1_all.deb
+MD5sum: e7097872996f7715757d47f720bacb7e
+SHA1: 980fa57b296f7cc7e615a4bc1e60fcd14a75b950
+SHA256: 3430f3b0b406cb94ea99043c254108f2e157169665b00c91cd90e5ad4267633d
+SHA512: 5f93165939225328caa2c417370756d6272979b54c1feeaed9b19bc787f635fb1521fecbf7b7555be633c8ea26377a586a99dcc711e3fb8403d6e4b99c7af651
+Size: 1678876
+
+Package: gstreamer1.0-plugins-good-doc
+Source: gst-plugins-good1.0
+Version: 1.14.4-1+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 5371
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "good" set,
+ a set of good-quality plug-ins under the LGPL license.
+Filename: pool/rockchip-buster-test/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good-doc_1.14.4-1+deb10u1_all.deb
+MD5sum: 4c24a17b27b8a4ba069ebae781715a9d
+SHA1: 0eda03a780a1d76b25fa2143111a539431596736
+SHA256: 63b64471aee85052ef1299f92fe18769acb3e2fd88e43b1c27daa1d6df95f068
+SHA512: 81848936e30c4f0393b06fb320a9597f2eb29113a3de13bc19a1de75cee3d1aa58522329280cbfb964f48a5b656fe9bd536eaa02c3f48a1d3e18264252b2c809
+Size: 1464108
+
+Package: gstreamer1.0-plugins-ugly-doc
+Source: gst-plugins-ugly1.0
+Version: 1.14.4-1+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-ugly1.0@packages.debian.org>
+Installed-Size: 488
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "ugly" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "ugly" set,
+ a set of good-quality plug-ins that might pose distribution problems.
+Filename: pool/rockchip-buster-test/main/g/gst-plugins-ugly1.0/gstreamer1.0-plugins-ugly-doc_1.14.4-1+deb10u1_all.deb
+MD5sum: da9bcd98c4c033de2c777670a6a9fc8f
+SHA1: 46eab003483791f491951ea81d3154fd2f65fa8e
+SHA256: 572c3b7d0c95047c1b34524831a58198f3fca18e68e310918b9cb48a124d8043
+SHA512: ba92751cfa938c8d3757a8fdbe74b77750dabb76adf2e74a76c14aed3298e5d45e55768c8b575a566ebf404977937ce0fce86fb0ff5196a0ce054fc605da04b5
+Size: 239564
+
+Package: libdrm-common
+Source: libdrm
+Version: 2.4.97-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 32
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+Filename: pool/rockchip-buster-test/main/libd/libdrm/libdrm-common_2.4.97-1_all.deb
+MD5sum: 5e41a62eae099d4425ba6981623cf565
+SHA1: 88fa64e148e814c1c5e440e7b395ccd369e222c5
+SHA256: a33b7bd8ec006cd0a60c636c1bbf3ca549d44d0b0417419ee5f4007a09b891b3
+SHA512: 1fccdeec74601f8c6ec998b0eb2f0466aa36aaf909179705401835ae7ce773e7d18b454a0be733539db0429fdfa387bb172767f42377b3e8516b0fc3f565dbc8
+Size: 12474
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.16.3-3
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6617
+Suggests: devhelp
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+Filename: pool/rockchip-buster-test/main/v/v4l-utils/libdvbv5-doc_1.16.3-3_all.deb
+MD5sum: 6a7762c9cfb008b529603f1d97ea93be
+SHA1: ed935ed192233d448b95a5ae9616d1178dea8e7c
+SHA256: 58fa9712adc27a778a272668866ec34eb4b04e63a26252d09bf9c35cad568c8e
+SHA512: 6b88b3901192aa497d8796249398772c4a581516ee5c915d531142381e83947ef4081710018a7bced0cd7010bfebc6c7e77d00a78f0db8541d98bff6b8c49962
+Size: 1506032
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3328
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+Filename: pool/rockchip-buster-test/main/x/xorg-server/xorg-server-source_1.20.4-1+deb10u3_all.deb
+MD5sum: 72cf35d9da5ddaa8e285237c62079cd5
+SHA1: 6e8a9d167ac813dbc55bc5edfb4a640ddf677589
+SHA256: 8876d5f1a3e95c67bf463978d5a61e4bdb5517fd7ee831f67e450c973e9d70d7
+SHA512: 527d210bf30df987e65a0bcd7d29ce16b2b64cd85dcbc7ed12554979c0419b3215755df19044341d8d8f954b616de3972c170ca756014d41bc9bdeded332ad31
+Size: 3256116
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 187
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Filename: pool/rockchip-buster-test/main/x/xorg-server/xserver-common_1.20.4-1+deb10u3_all.deb
+MD5sum: f6239d5639664183ad4eb3d0bc2a88cb
+SHA1: c8a18a27c875d9483219c56d661cf46588adf952
+SHA256: 17a5dac5bba3ef5ed4e6e4c2e5ab1e360d892076b332472d0996b81c80dbd083
+SHA512: fa76268c774e1ba5141a466e141522c93e334c3c22febb635e6233f9d7ce3f07dca36146af41e42fd7365921fb18ff24a09b11b2339077860065451a7a505ab7
+Size: 72136
+
